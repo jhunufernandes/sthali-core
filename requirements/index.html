@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="{{cookiecutter.full_name}}" /><link rel="canonical" href="https://jhunufernandes.github.io/sthali-db/requirements/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="{{cookiecutter.full_name}}" /><link rel="canonical" href="https://jhunufernandes.github.io/sthali-core/requirements/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Requirements - sthali-db</title>
+    <title>Requirements - sthali-core</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
@@ -14,7 +14,7 @@
         // Current page data
         var mkdocs_page_name = "Requirements";
         var mkdocs_page_input_path = "requirements.md";
-        var mkdocs_page_url = "/sthali-db/requirements/";
+        var mkdocs_page_url = "/sthali-core/requirements/";
       </script>
     
     <!--[if lt IE 9]>
@@ -30,7 +30,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href=".." class="icon icon-home"> sthali-db
+          <a href=".." class="icon icon-home"> sthali-core
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
@@ -84,9 +84,9 @@
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../license/">License</a>
                   </li>
-                  <li class="toctree-l1"><a class="" href="https://github.com/jhunufernandes/sthali-db/pulls?q=is%3Apr+is%3Aclosed+release">Release Notes</a>
+                  <li class="toctree-l1"><a class="" href="https://github.com/jhunufernandes/sthali-core/pulls?q=is%3Apr+is%3Aclosed+release">Release Notes</a>
                   </li>
-                  <li class="toctree-l1"><a class="" href="https://github.com/jhunufernandes/sthali-db/issues">Issue Tracker</a>
+                  <li class="toctree-l1"><a class="" href="https://github.com/jhunufernandes/sthali-core/issues">Issue Tracker</a>
                   </li>
               </ul>
       </div>
@@ -96,7 +96,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="..">sthali-db</a>
+          <a href="..">sthali-core</a>
         
       </nav>
       <div class="wy-nav-content">
@@ -105,7 +105,7 @@
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
       <li class="breadcrumb-item active">Requirements</li>
     <li class="wy-breadcrumbs-aside">
-          <a href="https://github.com/jhunufernandes/sthali-db/edit/master/docs/requirements.md">Edit on sthali-db</a>
+          <a href="https://github.com/jhunufernandes/sthali-core/edit/master/docs/requirements.md">Edit on sthali-core</a>
     </li>
   </ul>
   <hr/>
@@ -127,16 +127,25 @@
 <p><code>cookiecutter &gt;= 2.6.0</code></p>
 </li>
 <li>
-<p><code>mkdocs &gt;= 1.6.0</code></p>
+<p><code>fastapi &gt;= 0.115.13</code></p>
+</li>
+<li>
+<p><code>mkdocs &gt;= 1.6.1</code></p>
+</li>
+<li>
+<p><code>pydantic &gt;= 2.11.7</code></p>
 </li>
 <li>
 <p><code>PyYAML &gt;= 6.0.2</code></p>
 </li>
 <li>
-<p><code>tomli &gt;= 2.0.1</code></p>
+<p><code>tomli &gt;= 2.2.1</code></p>
 </li>
 <li>
-<p><code>typer &gt;= 0.12.5</code></p>
+<p><code>typer &gt;= 0.16.0</code></p>
+</li>
+<li>
+<p><code>uvicorn &gt;= 0.34.3</code></p>
 </li>
 </ul>
 <h4 id="optional-dependencies">Optional Dependencies</h4>
@@ -144,15 +153,15 @@
 <h5 id="dev">dev</h5>
 <ul>
 <li>
-<p><code>coverage[toml] &gt;= 7.6.1</code></p>
+<p><code>coverage[toml] &gt;= 7.9.1</code></p>
 </li>
 <li>
-<p><code>ruff &gt;= 0.9.10</code></p>
+<p><code>ruff &gt;= 0.12.0</code></p>
 </li>
 </ul>
 <h5 id="tests">tests</h5>
 <ul>
-<li><code>coverage[toml] &gt;= 7.6.1</code></li>
+<li><code>coverage[toml] &gt;= 7.9.1</code></li>
 </ul>
 <h5 id="stage">stage</h5>
 <ul>
@@ -160,7 +169,7 @@
 <p><code>build &gt;= 1.2.1</code></p>
 </li>
 <li>
-<p><code>coverage[toml] &gt;= 7.6.1</code></p>
+<p><code>coverage[toml] &gt;= 7.9.1</code></p>
 </li>
 </ul>
               
@@ -191,7 +200,7 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
         <span>
-          <a href="https://github.com/jhunufernandes/sthali-db/" class="fa fa-code-fork" style="color: #fcfcfc"> sthali-db</a>
+          <a href="https://github.com/jhunufernandes/sthali-core/" class="fa fa-code-fork" style="color: #fcfcfc"> sthali-core</a>
         </span>
     
     

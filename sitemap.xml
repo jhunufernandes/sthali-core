@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://jhunufernandes.github.io/sthali-db/</loc>
-         <lastmod>2025-06-24</lastmod>
+         <loc>https://jhunufernandes.github.io/sthali-core/</loc>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
-         <loc>https://jhunufernandes.github.io/sthali-db/installation/</loc>
-         <lastmod>2025-06-24</lastmod>
+         <loc>https://jhunufernandes.github.io/sthali-core/installation/</loc>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
-         <loc>https://jhunufernandes.github.io/sthali-db/license/</loc>
-         <lastmod>2025-06-24</lastmod>
+         <loc>https://jhunufernandes.github.io/sthali-core/license/</loc>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
-         <loc>https://jhunufernandes.github.io/sthali-db/requirements/</loc>
-         <lastmod>2025-06-24</lastmod>
+         <loc>https://jhunufernandes.github.io/sthali-core/requirements/</loc>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
-         <loc>https://jhunufernandes.github.io/sthali-db/usage/</loc>
-         <lastmod>2025-06-24</lastmod>
+         <loc>https://jhunufernandes.github.io/sthali-core/usage/</loc>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
-         <loc>https://jhunufernandes.github.io/sthali-db/api/module_base/</loc>
-         <lastmod>2025-06-24</lastmod>
+         <loc>https://jhunufernandes.github.io/sthali-core/api/module_base/</loc>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
-         <loc>https://jhunufernandes.github.io/sthali-db/api/module_enum_clients/</loc>
-         <lastmod>2025-06-24</lastmod>
+         <loc>https://jhunufernandes.github.io/sthali-core/api/module_enum_clients/</loc>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
-         <loc>https://jhunufernandes.github.io/sthali-db/api/module_run_server/</loc>
-         <lastmod>2025-06-24</lastmod>
+         <loc>https://jhunufernandes.github.io/sthali-core/api/module_run_server/</loc>
+         <lastmod>2025-06-26</lastmod>
     </url>
 </urlset>
