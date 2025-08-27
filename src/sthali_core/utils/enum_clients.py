@@ -45,7 +45,7 @@ class Config:
 
     def _relative_to_formatted(self, path: pathlib.Path) -> str:
         src_path = next(filter(lambda x: x.name in ["src", "site-packages"], self.clients_directory.parents))
-        return str(path.relative_to(src_path)).strip(".py").replace("/", ".")
+        return str(path.relative_to(src_path)).removesuffix(".py").replace("/", ".")
 
     def get_client(self, client_name: str, *args: typing.Any, **kwargs: typing.Any) -> typing.Any:
         """Dynamically instantiate and return a client class based on the provided client name.
