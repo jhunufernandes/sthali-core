@@ -41,11 +41,11 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/project-sthali/sthali-core"
-"Bug Tracker" = "https://github.com/project-sthali/sthali-core/issues"
-"Source" = "https://github.com/project-sthali/sthali-core"
-"Documentation" = "https://project-sthali.github.io/sthali-core"
-"Changelog" = "https://github.com/project-sthali/sthali-core/releases"
+"Homepage" = "https://github.com/jhunufernandes/sthali-core"
+"Bug Tracker" = "https://github.com/jhunufernandes/sthali-core/issues"
+"Source" = "https://github.com/jhunufernandes/sthali-core"
+"Documentation" = "https://jhunufernandes.github.io/sthali-core"
+"Changelog" = "https://github.com/jhunufernandes/sthali-core/releases"
 
 [project.optional-dependencies]
 dev = [

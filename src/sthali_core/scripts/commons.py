@@ -174,7 +174,7 @@ class BaseDocsGenerator:
             project_name (str | None): The name of the project. Defaults to None.
         """
         self.pyproject_content = pyproject_content
-        self.organization_name = organization_name or "project-sthali"
+        self.organization_name = organization_name or "jhunufernandes"
         self.project_name = project_name
 
     def concatenate(self, file: str, path: Path | None = None) -> None:

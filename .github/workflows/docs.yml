@@ -5,7 +5,7 @@ on:
       - development
 jobs:
   install-deps:
-    uses: project-sthali/sthali-core/.github/workflows/deps.yml@development
+    uses: jhunufernandes/sthali-core/.github/workflows/deps.yml@development
     with:
       pip_args: stage
   build-docs:
