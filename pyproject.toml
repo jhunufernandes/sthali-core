@@ -6,7 +6,7 @@ requires = [
 
 [project]
 name = "sthali-core"
-version = "0.0.11"
+version = "0.0.12"
 authors = [
   { name = "Jhunu Fernandes", email = "jhunu.fernandes@gmail.com" },
 ]
@@ -33,11 +33,9 @@ dependencies = [
   "cookiecutter >= 2.6.0",
   "fastapi >= 0.115.13",
   "mkdocs >= 1.6.1",
-  # "pydantic >= 2.11.7",
   "PyYAML >= 6.0.2",
   "tomli >= 2.2.1",
   "typer >= 0.16.0",
-  # "uvicorn >= 0.34.3",
 ]
 
 [project.urls]
