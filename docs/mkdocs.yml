@@ -7,10 +7,7 @@ nav:
   - License: license.md
   - Release Notes: https://github.com/jhunufernandes/sthali-core/releases
   - Issue Tracker: https://github.com/jhunufernandes/sthali-core/issues
-- API Reference:
-  - base: api/module_base.md
-  - enum_clients: api/module_enum_clients.md
-  - run_server: api/module_run_server.md
+- API Reference: []
 repo_name: sthali-core
 repo_url: https://github.com/jhunufernandes/sthali-core/
 site_author: Jhunu Fernandes

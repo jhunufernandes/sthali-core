@@ -16,15 +16,11 @@ This project requires the following Python packages with specific versions:
 
 - `mkdocs >= 1.6.1`
 
-- `pydantic >= 2.11.7`
-
 - `PyYAML >= 6.0.2`
 
 - `tomli >= 2.2.1`
 
 - `typer >= 0.16.0`
-
-- `uvicorn >= 0.34.3`
 
 
 
