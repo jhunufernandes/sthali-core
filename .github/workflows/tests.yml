@@ -9,7 +9,7 @@ on:
       - main
 jobs:
   install-deps:
-    uses: jhunufernandes/sthali-core/.github/workflows/deps.yml@development
+    uses: jhunufernandes/python-github-actions/.github/workflows/deps.yml@main
     with:
       pip_args: tests
   run-tests:
