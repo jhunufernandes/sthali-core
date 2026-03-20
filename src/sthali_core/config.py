@@ -17,16 +17,12 @@ class Config:
         """{...}."""
         with open(config_file_path) as f:
             self.yaml_config = safe_load(f)
-        self._validate()
-
-    @staticmethod
-    def get_config_file_path() -> str:
-        return getenv("CONFIG_FILE_PATH", "config.yaml")
+        self.validate()
 
     @classmethod
     def load(cls) -> "Config":
-        config_file_path = cls.get_config_file_path()
+        config_file_path = getenv("CONFIG_FILE_PATH", "config.yaml")
         return cls(config_file_path)
 
-    def _validate(self) -> None:
+    def validate(self):
         self.config_schema.model_validate(self.yaml_config)
