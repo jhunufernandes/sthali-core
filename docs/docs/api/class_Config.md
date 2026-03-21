@@ -1,6 +1,0 @@
-#### `Config`
-
-```
-Manages application configuration.
-```
-
